@@ -1,0 +1,89 @@
+Linux本身不是商業化產品 但可以被商業化
+
+Linux kernel lsmb 不屬於kernel一部分
+
+固定stack大小 無法動態
+
+Clone() inline 在編譯過程中全部展開 不會有記憶體位置跳轉的狀況
+
+最佳化 大部分流程likely 少數unlikely / branch
+
+Inline assembly 
+asm volatile(“rdstc”…..) 對我們的timestamp去取回暫存器的資料
+
+所有的東西都會模擬為檔案的方式來處理 open read write close 藉由這些指令對裝置進行操作
+
+Linux 對其他作業系統是有相容的 Unix api poxis signal Unix 定義來的
+
+Linux kernel 無浮點數運算 但在使用者環境下可以
+
+————————————
+1. 哪個不是scheduler policy
+極小的timeslice (x)
+
+2.linux scheduler 何者錯
+nice 值 越高越優先  （x)  反了
+
+3.interrupts 沒有寫在scheduler 裡
+
+4.graph structure (x)
+
+5.user space processor 不可以直接存取kernel space 資料（x)
+
+6. Kernel 
+第四個選項當system calls結束返回 
+
+7. CFS何者為錯
+O(n) > O(1)
+
+8.建立thread clone()傳入的
+Clone vfork() (x)
+
+9. System calls 何者為錯
+System calls 有上萬個（x)
+
+10. Linux process 建立
+Fork()
+
+11. Linux 何者為錯
+ 4 不得作為商業使用（x)
+
+12. 運行中的程式不可用什麼方式跟系統溝通
+4直接存取kernel中記憶體位置
+
+13. Linux kernel false?
+4. 同時運行多個kernel (x)
+
+14. Linux kernel 不包含哪一些 
+4. Make new config(x)
+
+15. 更換Linux kernel 如果沒執行 make_install
+看到舊版本的版號 
+
+16.kernel 無法使用什麼函數
+Printf() (x) > printk ()
+
+17. False?
+4. Child cannot fork() (x)
+
+18. Process state
+Task block (x)
+
+19. Page 30 可以做什麼事
+取得目前processor每個child 的process task structure
+
+20. Page 30 task 獲得的值為多少
+拿到parent的task structure 老師也不確定 自己看
+
+21. Process
+4.link list存放
+
+22. Pid  Fork()過程中了解
+Pffork_fork@exec (x)
+
+23. Process terminate 不需要的function
+1. Unlock_task() (x)
+
+24.哪一個程式不是process bound
+4.word （x) 就是在等
+
