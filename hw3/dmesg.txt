@@ -1,0 +1,571 @@
+
+[二  3月 12 15:31:36 2024] LOADING MODULE
+[二  3月 12 15:31:36 2024] PARENT PID: 1, UID: 0, PROCESS: init STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1] PID: 300 UID: 0 PROCESS: upstart-udev-br STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1] PID: 338 UID: 0 PROCESS: systemd-udevd STATE: 0
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1] PID: 425 UID: 102 PROCESS: dbus-daemon STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1] PID: 455 UID: 0 PROCESS: bluetoothd STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1] PID: 457 UID: 0 PROCESS: systemd-logind STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1] PID: 470 UID: 111 PROCESS: avahi-daemon STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1] PID: 468 UID: 101 PROCESS: rsyslogd STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1] PID: 518 UID: 0 PROCESS: upstart-file-br STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1] PID: 672 UID: 0 PROCESS: ModemManager STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1] PID: 694 UID: 0 PROCESS: NetworkManager STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1] PID: 753 UID: 0 PROCESS: polkitd STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1] PID: 761 UID: 0 PROCESS: upstart-socket- STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1] PID: 816 UID: 0 PROCESS: getty STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1] PID: 820 UID: 0 PROCESS: getty STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1] PID: 826 UID: 0 PROCESS: getty STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1] PID: 827 UID: 0 PROCESS: getty STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1] PID: 830 UID: 0 PROCESS: getty STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1] PID: 872 UID: 0 PROCESS: cron STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1] PID: 874 UID: 0 PROCESS: irqbalance STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1] PID: 899 UID: 0 PROCESS: lightdm STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1] PID: 892 UID: 109 PROCESS: whoopsie STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1] PID: 975 UID: 0 PROCESS: cups-browsed STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1] PID: 979 UID: 0 PROCESS: accounts-daemon STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1] PID: 1100 UID: 0 PROCESS: acpid STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1] PID: 1156 UID: 106 PROCESS: kerneloops STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1] PID: 1175 UID: 0 PROCESS: VBoxService STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1] PID: 1239 UID: 0 PROCESS: getty STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1] PID: 1307 UID: 0 PROCESS: upowerd STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1] PID: 1349 UID: 107 PROCESS: rtkit-daemon STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1] PID: 1610 UID: 113 PROCESS: colord STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1] PID: 1739 UID: 1000 PROCESS: gnome-keyring-d STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1] PID: 1804 UID: 1000 PROCESS: VBoxClient STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1] PID: 1819 UID: 1000 PROCESS: VBoxClient STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1] PID: 1827 UID: 1000 PROCESS: VBoxClient STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1] PID: 1844 UID: 1000 PROCESS: VBoxClient STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1] PID: 2231 UID: 0 PROCESS: udisksd STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1] PID: 3171 UID: 0 PROCESS: cupsd STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 2, UID: 0, PROCESS: kthreadd STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 3 UID: 0 PROCESS: ksoftirqd/0 STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 5 UID: 0 PROCESS: kworker/0:0H STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 6 UID: 0 PROCESS: kworker/u8:0 STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 7 UID: 0 PROCESS: rcu_sched STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 8 UID: 0 PROCESS: rcu_bh STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 9 UID: 0 PROCESS: rcuos/0 STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 10 UID: 0 PROCESS: rcuob/0 STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 11 UID: 0 PROCESS: migration/0 STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 12 UID: 0 PROCESS: watchdog/0 STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 13 UID: 0 PROCESS: watchdog/1 STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 14 UID: 0 PROCESS: migration/1 STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 15 UID: 0 PROCESS: ksoftirqd/1 STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 16 UID: 0 PROCESS: kworker/1:0 STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 17 UID: 0 PROCESS: kworker/1:0H STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 18 UID: 0 PROCESS: rcuos/1 STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 19 UID: 0 PROCESS: rcuob/1 STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 20 UID: 0 PROCESS: watchdog/2 STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 21 UID: 0 PROCESS: migration/2 STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 22 UID: 0 PROCESS: ksoftirqd/2 STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 23 UID: 0 PROCESS: kworker/2:0 STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 24 UID: 0 PROCESS: kworker/2:0H STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 25 UID: 0 PROCESS: rcuos/2 STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 26 UID: 0 PROCESS: rcuob/2 STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 27 UID: 0 PROCESS: watchdog/3 STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 28 UID: 0 PROCESS: migration/3 STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 29 UID: 0 PROCESS: ksoftirqd/3 STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 30 UID: 0 PROCESS: kworker/3:0 STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 31 UID: 0 PROCESS: kworker/3:0H STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 32 UID: 0 PROCESS: rcuos/3 STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 33 UID: 0 PROCESS: rcuob/3 STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 34 UID: 0 PROCESS: khelper STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 35 UID: 0 PROCESS: kdevtmpfs STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 36 UID: 0 PROCESS: netns STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 37 UID: 0 PROCESS: perf STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 38 UID: 0 PROCESS: khungtaskd STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 39 UID: 0 PROCESS: writeback STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 40 UID: 0 PROCESS: ksmd STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 41 UID: 0 PROCESS: khugepaged STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 42 UID: 0 PROCESS: crypto STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 43 UID: 0 PROCESS: kintegrityd STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 44 UID: 0 PROCESS: bioset STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 45 UID: 0 PROCESS: kblockd STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 46 UID: 0 PROCESS: ata_sff STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 47 UID: 0 PROCESS: md STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 48 UID: 0 PROCESS: devfreq_wq STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 50 UID: 0 PROCESS: kworker/3:1 STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 51 UID: 0 PROCESS: kworker/1:1 STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 52 UID: 0 PROCESS: kworker/0:1 STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 54 UID: 0 PROCESS: kswapd0 STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 55 UID: 0 PROCESS: fsnotify_mark STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 56 UID: 0 PROCESS: ecryptfs-kthrea STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 68 UID: 0 PROCESS: kthrotld STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 69 UID: 0 PROCESS: acpi_thermal_pm STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 70 UID: 0 PROCESS: scsi_eh_0 STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 71 UID: 0 PROCESS: scsi_tmf_0 STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 72 UID: 0 PROCESS: scsi_eh_1 STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 73 UID: 0 PROCESS: scsi_tmf_1 STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 75 UID: 0 PROCESS: kworker/2:1 STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 76 UID: 0 PROCESS: ipv6_addrconf STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 96 UID: 0 PROCESS: deferwq STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 97 UID: 0 PROCESS: charger_manager STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 150 UID: 0 PROCESS: scsi_eh_2 STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 151 UID: 0 PROCESS: scsi_tmf_2 STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 160 UID: 0 PROCESS: kworker/0:1H STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 161 UID: 0 PROCESS: jbd2/sda1-8 STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 162 UID: 0 PROCESS: ext4-rsv-conver STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 505 UID: 0 PROCESS: iprt-VBoxWQueue STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 507 UID: 0 PROCESS: krfcommd STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 514 UID: 0 PROCESS: kworker/1:1H STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 543 UID: 0 PROCESS: kpsmoused STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 598 UID: 0 PROCESS: ttm_swap STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 602 UID: 0 PROCESS: kworker/2:1H STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 605 UID: 0 PROCESS: kworker/3:1H STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 1148 UID: 0 PROCESS: kauditd STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 3300 UID: 0 PROCESS: kworker/0:0 STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF kthreadd[2] PID: 3323 UID: 0 PROCESS: kworker/u8:1 STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 3, UID: 0, PROCESS: ksoftirqd/0 STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 5, UID: 0, PROCESS: kworker/0:0H STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 6, UID: 0, PROCESS: kworker/u8:0 STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 7, UID: 0, PROCESS: rcu_sched STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 8, UID: 0, PROCESS: rcu_bh STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 9, UID: 0, PROCESS: rcuos/0 STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 10, UID: 0, PROCESS: rcuob/0 STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 11, UID: 0, PROCESS: migration/0 STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 12, UID: 0, PROCESS: watchdog/0 STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 13, UID: 0, PROCESS: watchdog/1 STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 14, UID: 0, PROCESS: migration/1 STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 15, UID: 0, PROCESS: ksoftirqd/1 STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 16, UID: 0, PROCESS: kworker/1:0 STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 17, UID: 0, PROCESS: kworker/1:0H STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 18, UID: 0, PROCESS: rcuos/1 STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 19, UID: 0, PROCESS: rcuob/1 STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 20, UID: 0, PROCESS: watchdog/2 STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 21, UID: 0, PROCESS: migration/2 STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 22, UID: 0, PROCESS: ksoftirqd/2 STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 23, UID: 0, PROCESS: kworker/2:0 STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 24, UID: 0, PROCESS: kworker/2:0H STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 25, UID: 0, PROCESS: rcuos/2 STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 26, UID: 0, PROCESS: rcuob/2 STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 27, UID: 0, PROCESS: watchdog/3 STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 28, UID: 0, PROCESS: migration/3 STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 29, UID: 0, PROCESS: ksoftirqd/3 STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 30, UID: 0, PROCESS: kworker/3:0 STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 31, UID: 0, PROCESS: kworker/3:0H STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 32, UID: 0, PROCESS: rcuos/3 STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 33, UID: 0, PROCESS: rcuob/3 STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 34, UID: 0, PROCESS: khelper STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 35, UID: 0, PROCESS: kdevtmpfs STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 36, UID: 0, PROCESS: netns STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 37, UID: 0, PROCESS: perf STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 38, UID: 0, PROCESS: khungtaskd STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 39, UID: 0, PROCESS: writeback STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 40, UID: 0, PROCESS: ksmd STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 41, UID: 0, PROCESS: khugepaged STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 42, UID: 0, PROCESS: crypto STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 43, UID: 0, PROCESS: kintegrityd STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 44, UID: 0, PROCESS: bioset STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 45, UID: 0, PROCESS: kblockd STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 46, UID: 0, PROCESS: ata_sff STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 47, UID: 0, PROCESS: md STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 48, UID: 0, PROCESS: devfreq_wq STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 50, UID: 0, PROCESS: kworker/3:1 STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 51, UID: 0, PROCESS: kworker/1:1 STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 52, UID: 0, PROCESS: kworker/0:1 STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 54, UID: 0, PROCESS: kswapd0 STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 55, UID: 0, PROCESS: fsnotify_mark STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 56, UID: 0, PROCESS: ecryptfs-kthrea STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 68, UID: 0, PROCESS: kthrotld STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 69, UID: 0, PROCESS: acpi_thermal_pm STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 70, UID: 0, PROCESS: scsi_eh_0 STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 71, UID: 0, PROCESS: scsi_tmf_0 STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 72, UID: 0, PROCESS: scsi_eh_1 STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 73, UID: 0, PROCESS: scsi_tmf_1 STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 75, UID: 0, PROCESS: kworker/2:1 STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 76, UID: 0, PROCESS: ipv6_addrconf STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 96, UID: 0, PROCESS: deferwq STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 97, UID: 0, PROCESS: charger_manager STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 150, UID: 0, PROCESS: scsi_eh_2 STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 151, UID: 0, PROCESS: scsi_tmf_2 STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 160, UID: 0, PROCESS: kworker/0:1H STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 161, UID: 0, PROCESS: jbd2/sda1-8 STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 162, UID: 0, PROCESS: ext4-rsv-conver STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 300, UID: 0, PROCESS: upstart-udev-br STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 338, UID: 0, PROCESS: systemd-udevd STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF systemd-udevd[338] PID: 3623 UID: 0 PROCESS: systemd-udevd STATE: 0
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 425, UID: 102, PROCESS: dbus-daemon STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 455, UID: 0, PROCESS: bluetoothd STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 457, UID: 0, PROCESS: systemd-logind STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 468, UID: 101, PROCESS: rsyslogd STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 470, UID: 111, PROCESS: avahi-daemon STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF avahi-daemon[470] PID: 472 UID: 111 PROCESS: avahi-daemon STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 472, UID: 111, PROCESS: avahi-daemon STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 505, UID: 0, PROCESS: iprt-VBoxWQueue STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 507, UID: 0, PROCESS: krfcommd STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 514, UID: 0, PROCESS: kworker/1:1H STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 518, UID: 0, PROCESS: upstart-file-br STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 543, UID: 0, PROCESS: kpsmoused STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 598, UID: 0, PROCESS: ttm_swap STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 602, UID: 0, PROCESS: kworker/2:1H STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 605, UID: 0, PROCESS: kworker/3:1H STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 672, UID: 0, PROCESS: ModemManager STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 694, UID: 0, PROCESS: NetworkManager STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF NetworkManager[694] PID: 763 UID: 0 PROCESS: dhclient STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF NetworkManager[694] PID: 1352 UID: 65534 PROCESS: dnsmasq STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 753, UID: 0, PROCESS: polkitd STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 761, UID: 0, PROCESS: upstart-socket- STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 763, UID: 0, PROCESS: dhclient STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 816, UID: 0, PROCESS: getty STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 820, UID: 0, PROCESS: getty STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 826, UID: 0, PROCESS: getty STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 827, UID: 0, PROCESS: getty STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 830, UID: 0, PROCESS: getty STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 872, UID: 0, PROCESS: cron STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 874, UID: 0, PROCESS: irqbalance STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 892, UID: 109, PROCESS: whoopsie STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 899, UID: 0, PROCESS: lightdm STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF lightdm[899] PID: 976 UID: 0 PROCESS: Xorg STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF lightdm[899] PID: 1279 UID: 0 PROCESS: lightdm STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 975, UID: 0, PROCESS: cups-browsed STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 976, UID: 0, PROCESS: Xorg STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 979, UID: 0, PROCESS: accounts-daemon STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 1100, UID: 0, PROCESS: acpid STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 1148, UID: 0, PROCESS: kauditd STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 1156, UID: 106, PROCESS: kerneloops STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 1175, UID: 0, PROCESS: VBoxService STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 1239, UID: 0, PROCESS: getty STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 1279, UID: 0, PROCESS: lightdm STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF lightdm[1279] PID: 1741 UID: 1000 PROCESS: init STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 1307, UID: 0, PROCESS: upowerd STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 1349, UID: 107, PROCESS: rtkit-daemon STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 1352, UID: 65534, PROCESS: dnsmasq STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 1610, UID: 113, PROCESS: colord STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 1739, UID: 1000, PROCESS: gnome-keyring-d STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 1741, UID: 1000, PROCESS: init STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1741] PID: 1860 UID: 1000 PROCESS: ssh-agent STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1741] PID: 1865 UID: 1000 PROCESS: dbus-daemon STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1741] PID: 1874 UID: 1000 PROCESS: upstart-event-b STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1741] PID: 1880 UID: 1000 PROCESS: window-stack-br STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1741] PID: 1897 UID: 1000 PROCESS: ibus-daemon STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1741] PID: 1902 UID: 1000 PROCESS: upstart-file-br STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1741] PID: 1909 UID: 1000 PROCESS: upstart-dbus-br STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1741] PID: 1911 UID: 1000 PROCESS: upstart-dbus-br STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1741] PID: 1924 UID: 1000 PROCESS: unity-settings- STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1741] PID: 1930 UID: 1000 PROCESS: hud-service STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1741] PID: 1933 UID: 1000 PROCESS: at-spi-bus-laun STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1741] PID: 1923 UID: 1000 PROCESS: gvfsd STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1741] PID: 1936 UID: 1000 PROCESS: gnome-session STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1741] PID: 1940 UID: 1000 PROCESS: gvfsd-fuse STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1741] PID: 1944 UID: 1000 PROCESS: ibus-x11 STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1741] PID: 1950 UID: 1000 PROCESS: unity-panel-ser STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1741] PID: 1904 UID: 1000 PROCESS: bamfdaemon STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1741] PID: 1984 UID: 1000 PROCESS: at-spi2-registr STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1741] PID: 1996 UID: 1000 PROCESS: indicator-messa STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1741] PID: 1998 UID: 1000 PROCESS: indicator-bluet STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1741] PID: 2002 UID: 1000 PROCESS: indicator-power STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1741] PID: 2007 UID: 1000 PROCESS: indicator-datet STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1741] PID: 2011 UID: 1000 PROCESS: indicator-sound STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1741] PID: 2012 UID: 1000 PROCESS: indicator-print STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1741] PID: 2014 UID: 1000 PROCESS: indicator-sessi STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1741] PID: 2021 UID: 1000 PROCESS: indicator-appli STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1741] PID: 2062 UID: 1000 PROCESS: pulseaudio STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1741] PID: 2113 UID: 1000 PROCESS: dconf-service STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1741] PID: 2099 UID: 1000 PROCESS: notify-osd STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1741] PID: 2071 UID: 1000 PROCESS: evolution-sourc STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1741] PID: 2018 UID: 1000 PROCESS: indicator-keybo STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1741] PID: 2162 UID: 1000 PROCESS: evolution-calen STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1741] PID: 2266 UID: 1000 PROCESS: gconfd-2 STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1741] PID: 2222 UID: 1000 PROCESS: gvfs-udisks2-vo STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1741] PID: 2268 UID: 1000 PROCESS: gvfs-mtp-volume STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1741] PID: 2272 UID: 1000 PROCESS: gvfs-gphoto2-vo STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1741] PID: 2279 UID: 1000 PROCESS: gvfs-afc-volume STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1741] PID: 2292 UID: 1000 PROCESS: gvfsd-trash STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1741] PID: 2337 UID: 1000 PROCESS: gvfsd-burn STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1741] PID: 2378 UID: 1000 PROCESS: gnome-terminal STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1741] PID: 2466 UID: 1000 PROCESS: mission-control STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1741] PID: 2513 UID: 1000 PROCESS: zeitgeist-daemo STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1741] PID: 2519 UID: 1000 PROCESS: zeitgeist-fts STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF init[1741] PID: 2680 UID: 1000 PROCESS: gvfsd-metadata STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 1804, UID: 1000, PROCESS: VBoxClient STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF VBoxClient[1804] PID: 1805 UID: 1000 PROCESS: VBoxClient STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 1805, UID: 1000, PROCESS: VBoxClient STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 1819, UID: 1000, PROCESS: VBoxClient STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF VBoxClient[1819] PID: 1820 UID: 1000 PROCESS: VBoxClient STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 1820, UID: 1000, PROCESS: VBoxClient STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 1827, UID: 1000, PROCESS: VBoxClient STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF VBoxClient[1827] PID: 1828 UID: 1000 PROCESS: VBoxClient STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 1828, UID: 1000, PROCESS: VBoxClient STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 1844, UID: 1000, PROCESS: VBoxClient STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF VBoxClient[1844] PID: 1845 UID: 1000 PROCESS: VBoxClient STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 1845, UID: 1000, PROCESS: VBoxClient STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 1860, UID: 1000, PROCESS: ssh-agent STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 1865, UID: 1000, PROCESS: dbus-daemon STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 1874, UID: 1000, PROCESS: upstart-event-b STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 1880, UID: 1000, PROCESS: window-stack-br STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 1897, UID: 1000, PROCESS: ibus-daemon STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF ibus-daemon[1897] PID: 1938 UID: 1000 PROCESS: ibus-dconf STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF ibus-daemon[1897] PID: 1941 UID: 1000 PROCESS: ibus-ui-gtk3 STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF ibus-daemon[1897] PID: 2102 UID: 1000 PROCESS: ibus-engine-sim STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 1902, UID: 1000, PROCESS: upstart-file-br STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 1904, UID: 1000, PROCESS: bamfdaemon STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 1909, UID: 1000, PROCESS: upstart-dbus-br STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 1911, UID: 1000, PROCESS: upstart-dbus-br STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 1923, UID: 1000, PROCESS: gvfsd STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 1924, UID: 1000, PROCESS: unity-settings- STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 1930, UID: 1000, PROCESS: hud-service STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 1933, UID: 1000, PROCESS: at-spi-bus-laun STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF at-spi-bus-laun[1933] PID: 1960 UID: 1000 PROCESS: dbus-daemon STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 1936, UID: 1000, PROCESS: gnome-session STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF gnome-session[1936] PID: 2118 UID: 1000 PROCESS: compiz STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF gnome-session[1936] PID: 2143 UID: 1000 PROCESS: unity-fallback- STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF gnome-session[1936] PID: 2159 UID: 1000 PROCESS: nm-applet STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF gnome-session[1936] PID: 2176 UID: 1000 PROCESS: polkit-gnome-au STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF gnome-session[1936] PID: 2177 UID: 1000 PROCESS: nautilus STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF gnome-session[1936] PID: 2459 UID: 1000 PROCESS: telepathy-indic STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF gnome-session[1936] PID: 2508 UID: 1000 PROCESS: zeitgeist-datah STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF gnome-session[1936] PID: 2575 UID: 1000 PROCESS: update-notifier STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF gnome-session[1936] PID: 2584 UID: 1000 PROCESS: deja-dup-monito STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 1938, UID: 1000, PROCESS: ibus-dconf STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 1940, UID: 1000, PROCESS: gvfsd-fuse STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 1941, UID: 1000, PROCESS: ibus-ui-gtk3 STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 1944, UID: 1000, PROCESS: ibus-x11 STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 1950, UID: 1000, PROCESS: unity-panel-ser STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 1960, UID: 1000, PROCESS: dbus-daemon STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 1984, UID: 1000, PROCESS: at-spi2-registr STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 1996, UID: 1000, PROCESS: indicator-messa STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 1998, UID: 1000, PROCESS: indicator-bluet STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 2002, UID: 1000, PROCESS: indicator-power STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 2007, UID: 1000, PROCESS: indicator-datet STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 2011, UID: 1000, PROCESS: indicator-sound STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 2012, UID: 1000, PROCESS: indicator-print STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 2014, UID: 1000, PROCESS: indicator-sessi STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 2018, UID: 1000, PROCESS: indicator-keybo STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 2021, UID: 1000, PROCESS: indicator-appli STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 2062, UID: 1000, PROCESS: pulseaudio STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 2071, UID: 1000, PROCESS: evolution-sourc STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 2099, UID: 1000, PROCESS: notify-osd STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 2102, UID: 1000, PROCESS: ibus-engine-sim STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 2113, UID: 1000, PROCESS: dconf-service STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 2118, UID: 1000, PROCESS: compiz STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 2143, UID: 1000, PROCESS: unity-fallback- STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 2159, UID: 1000, PROCESS: nm-applet STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 2162, UID: 1000, PROCESS: evolution-calen STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 2176, UID: 1000, PROCESS: polkit-gnome-au STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 2177, UID: 1000, PROCESS: nautilus STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 2222, UID: 1000, PROCESS: gvfs-udisks2-vo STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 2231, UID: 0, PROCESS: udisksd STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 2266, UID: 1000, PROCESS: gconfd-2 STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 2268, UID: 1000, PROCESS: gvfs-mtp-volume STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 2272, UID: 1000, PROCESS: gvfs-gphoto2-vo STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 2279, UID: 1000, PROCESS: gvfs-afc-volume STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 2292, UID: 1000, PROCESS: gvfsd-trash STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 2337, UID: 1000, PROCESS: gvfsd-burn STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 2378, UID: 1000, PROCESS: gnome-terminal STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF gnome-terminal[2378] PID: 2385 UID: 1000 PROCESS: gnome-pty-helpe STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF gnome-terminal[2378] PID: 2386 UID: 1000 PROCESS: bash STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 2385, UID: 1000, PROCESS: gnome-pty-helpe STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 2386, UID: 1000, PROCESS: bash STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF bash[2386] PID: 2481 UID: 1000 PROCESS: su STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 2459, UID: 1000, PROCESS: telepathy-indic STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 2466, UID: 1000, PROCESS: mission-control STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 2481, UID: 1000, PROCESS: su STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF su[2481] PID: 2498 UID: 0 PROCESS: bash STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 2498, UID: 0, PROCESS: bash STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF bash[2498] PID: 3622 UID: 0 PROCESS: insmod STATE: 0
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 2508, UID: 1000, PROCESS: zeitgeist-datah STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 2513, UID: 1000, PROCESS: zeitgeist-daemo STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 2519, UID: 1000, PROCESS: zeitgeist-fts STATE: 1
+[二  3月 12 15:31:36 2024] 	CHILD OF zeitgeist-fts[2519] PID: 2529 UID: 1000 PROCESS: cat STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 2529, UID: 1000, PROCESS: cat STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 2575, UID: 1000, PROCESS: update-notifier STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 2584, UID: 1000, PROCESS: deja-dup-monito STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 2680, UID: 1000, PROCESS: gvfsd-metadata STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 3171, UID: 0, PROCESS: cupsd STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 3300, UID: 0, PROCESS: kworker/0:0 STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 3323, UID: 0, PROCESS: kworker/u8:1 STATE: 1
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 3622, UID: 0, PROCESS: insmod STATE: 0
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+[二  3月 12 15:31:36 2024] PARENT PID: 3623, UID: 0, PROCESS: systemd-udevd STATE: 0
+[二  3月 12 15:31:36 2024] -----------------------------------------------------
+]0;root@liavan: /home/user/linux/hw3 root@liavan:/home/user/linux/hw3# exit
+exit
+
+Script done on 2024年03月12日 (週二) 15時39分18秒
